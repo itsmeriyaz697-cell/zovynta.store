@@ -1,0 +1,10 @@
+{
+  "name": "zovyenta-store",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check api/_lib.js && node --check api/order.js && node --check api/admin/login.js && node --check api/admin/orders.js && node --check admin.js"
+  }
+}
